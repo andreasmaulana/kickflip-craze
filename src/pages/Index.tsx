@@ -13,6 +13,10 @@ import {
   Circle
 } from "lucide-react";
 import heroImage from "@/assets/hero-skateboard.jpg";
+import completeSkateboardImage from "@/assets/complete-skateboard.jpg";
+import skateboardDeckImage from "@/assets/skateboard-deck.jpg";
+import skateboardWheelsImage from "@/assets/skateboard-wheels.jpg";
+import skateboardTrucksImage from "@/assets/skateboard-trucks.jpg";
 
 const Index = () => {
   return (
@@ -151,7 +155,7 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ProductCard 
-              image="https://images.unsplash.com/photo-1565878877939-b11d7eed1e52?w=400"
+              image={completeSkateboardImage}
               title="Complete Skateboard Pro"
               price="Rp 850.000"
               originalPrice="Rp 1.200.000"
@@ -159,19 +163,19 @@ const Index = () => {
               isNew={true}
             />
             <ProductCard 
-              image="https://images.unsplash.com/photo-1564982180933-3e38c5e6b33f?w=400"
+              image={skateboardDeckImage}
               title="Street Deck 8.0"
               price="Rp 650.000"
               category="Deck"
             />
             <ProductCard 
-              image="https://images.unsplash.com/photo-1578911373434-0cb395d2cbfb?w=400"
+              image={skateboardWheelsImage}
               title="Premium Wheels Set"
               price="Rp 320.000"
               category="Wheels"
             />
             <ProductCard 
-              image="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=400"
+              image={skateboardTrucksImage}
               title="Professional Trucks"
               price="Rp 480.000"
               category="Trucks"
